@@ -1,18 +1,16 @@
 <!doctype html>
-<html lang="ru">
+<html <?php language_attributes(); ?>>
 <head>
     <title>Главная</title>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset') ?>">
     <meta name="viewport" content="width=device-width">
-<!--    <link href="css/styles.css" rel="stylesheet">-->
-<!--    <script type="text/javascript" src="js/script.js"></script>-->
     <?php wp_head(); ?>
 </head>
 <body>
 <div class="wrapper">
     <header>
         <div class="header-top clearfix">
-            <h1>Wood Design</h1>
+            <a class="logo" href="<?php home_url() ?>"><?php bloginfo('name') ?></a>
             <nav>
                 <div class="menu-button">MENU</div>
                 <ul>
