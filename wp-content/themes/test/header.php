@@ -18,13 +18,6 @@
                     'container'      => null,
                     'items_wrap'     => '<ul>%3$s</ul>',
                 ]); ?>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
             </nav>
 
         </div>

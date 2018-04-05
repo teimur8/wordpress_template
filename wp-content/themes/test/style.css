@@ -202,20 +202,29 @@ aside ul{
     clear: both;
     text-align:  right;
 }
-h2.menu{
+h2.menu,
+.widget_categories h2{
     padding: 10px 0;
 }
-.secondery-navigation li:first-child a{
+
+.secondery-navigation li:first-child a,
+.widget_categories li:first-child a
+{
     transition: display 2s;
     border-top: 1px solid #eee;
 }
-.secondery-navigation a{
+.secondery-navigation a,
+.widget_categories a
+{
     text-decoration: none;
     display: block;
     padding: 8px 5px;
     border-bottom: 1px solid #eee;
 }
-.secondery-navigation a:hover{
+.secondery-navigation a:hover,
+.widget_categories a:hover,
+.widget_categories li.current-cat a
+{
     background: #f9f9f9;
     color: #333;
 }

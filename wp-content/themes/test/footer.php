@@ -2,11 +2,11 @@
 <footer class="clearfix">
     <div class="footer-links clearfix">
         <a href="#">
-            <img src="img/flickr.jpg" alt="Иконка">
+            <img src="<?= PATH_THEME_IMG ?>flickr.jpg" alt="Иконка">
             <span>Wood Design on Flickr</span>
         </a>
         <a href="#">
-            <img src="img/twitter.jpg" alt="Иконка">
+            <img src="<?= PATH_THEME_IMG ?>twitter.jpg" alt="Иконка">
             <span>Wood Design on Twitter</span>
         </a>
     </div>
