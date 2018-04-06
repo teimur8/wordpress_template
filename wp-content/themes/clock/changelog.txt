@@ -1,0 +1,70 @@
+v1.2.1 (July 12, 2014)
+----------------------------
+Fixed the broken Shortcodes issue.
+Fixed style.css issue for Child themes.
+Removed Custom Dashboard design option.
+Removed Inbuilt theme update checker.
+Removed Google Plus Badge Widget and add Google Plus Badge plugin.
+Added new function which will ask you to install Recommended Plugins.
+Theme will ask to Install Shortcodes and MyThemeShop Connect plugin.
+Improved Options Panel Styling.
+Added Single Post title font option in Typography Tab.
+Minor CSS Fixes.
+
+Files changed:
+- style.css
+- functions.php
+- theme-options.php
+- options.css
+- aristo.css
+
+v1.2 (January 8, 2014)
+----------------------------
+Added Schema for Breadcrumbs.
+Added Option to control number of products on Shop.
+Fixed Color scheme option on Shop page.
+Added Styling to the Shop Pagination.
+Added Option to move social media icons below or above the content.
+
+v1.1.2 (November 6, 2013)
+----------------------------
+Added Schema for Breadcrumbs.
+Added Option to control thumbnail quality.
+Added Option to control number of products on Shop.
+Theme will show new update notification on dashboard.
+Added Option to disable Theme update notification.
+Fixed Color scheme option on Shop page.
+Added Styling to the Shop Pagination.
+Added Option to move social media icons below or above the content.
+Added Async script loading for social media icons.
+
+v1.1.1 (October 7, 2013)
+----------------------------
+Added an option to setup the homepage without setting up a page template.
+
+v1.1 (October 6, 2013)
+----------------------------
+Added Option to disable Responsiveness.
+Added Two layout option for HomePage Featured Section
+Added Two Layout option for Single Post Content Section.
+New Single Post Layout option will provide three positions for Related Posts
+- Right to the content
+- Left to the content
+- Below Content
+Added Option to Select multiple categories for Trending Section.
+Added Option to control number of posts in Trending Section
+Added Option to hide Header search form.
+Added Option to hide Complete Header section including logo.
+Added Option to show latest posts from perticular categories.
+Added Async loading for social sharing buttons to reduce loading time.
+Added Related Posts Widget
+Added Option to hide thumbnails for Recent, Category & Popular Posts Widgets
+Added Option to hide Date, Comment count and Thumbs for Tabbed Widget.
+In Author box now author name is linked to Author Archive.
+Added Option to make navigation Floating/Sticky.
+Fixed Small bugs.
+SEO Improvements.
+
+v1.0
+----------------------------
+Theme Released

@@ -1,0 +1,1 @@
+[13-Dec-2013 07:59:32 America/Chicago] PHP Fatal error:  Call to undefined function get_option() in /home/mythemes/public_html/demo/wp-content/themes/clock/index.php on line 1
