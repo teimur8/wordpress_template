@@ -1,19 +1,26 @@
 <?php get_header(); ?>
 
     <main class="clearfix">
-        <?php if(have_posts()){ ?>
-            <?php while (have_posts()): the_post(); ?>
-                <section>
-                    <a href="<?php the_permalink() ?>">
-                        <?php the_post_thumbnail('thumbnail') ?>
-                    </a>
-                    <h2><?= the_title() ?></h2>
-                    <span><?= CFS()->get('intro') ?></span>
-                </section>
-            <?php endwhile ?>
-        <?php }else{ ?>
-            Записей нет!
-        <?php } ?>
+        <div class="div">
+
+	        <?php if(have_posts()){ ?>
+		        <?php while (have_posts()): the_post(); ?>
+                    <section>
+                        <a href="<?php the_permalink() ?>">
+					        <?php the_post_thumbnail('thumbnail') ?>
+                        </a>
+                        <h2><?= the_title() ?></h2>
+                        <span><?= CFS()->get('intro') ?></span>
+                    </section>
+		        <?php endwhile ?>
+	        <?php }else{ ?>
+                Записей нет!
+	        <?php } ?>
+
+        </div>
+
+
+        <?php the_posts_pagination() ?>
 
 
 <!--        <section>-->
