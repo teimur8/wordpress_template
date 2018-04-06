@@ -16,3 +16,16 @@
 
 Actions:
 - wp_enqueue_scripts
+
+
+Плагин иммет события
+- установка
+- активация
+- деактивация
+- удаление
+
+
+Плагины:
+    Добавлнеие доп полей к записям
+        Custom Field Suite
+        ![](.conspect_images\cadc46cc.png)

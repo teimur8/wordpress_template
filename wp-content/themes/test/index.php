@@ -4,11 +4,11 @@
         <?php if(have_posts()){ ?>
             <?php while (have_posts()): the_post(); ?>
                 <section>
-                    <a href="<?= the_permalink() ?>">
-                        <img src="<?= PATH_THEME_IMG ?>1st_Design.jpg" alt="1st Design">
+                    <a href="<?php the_permalink() ?>">
+                        <?php the_post_thumbnail('thumbnail') ?>
                     </a>
                     <h2><?= the_title() ?></h2>
-                    <span>This work description goes here. Just simple and short text about this work.</span>
+                    <span><?= CFS()->get('intro') ?></span>
                 </section>
             <?php endwhile ?>
         <?php }else{ ?>
