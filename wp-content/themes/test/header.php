@@ -1,7 +1,7 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-    <title>Главная</title>
+<!--    <title>Главная</title>-->
     <meta charset="<?php bloginfo('charset') ?>">
     <meta name="viewport" content="width=device-width">
     <?php wp_head(); ?>
@@ -10,7 +10,7 @@
 <div class="wrapper">
     <header>
         <div class="header-top clearfix">
-            <a class="logo" href="<?php home_url() ?>"><?php bloginfo('name') ?></a>
+            <a class="logo" href="<?= get_home_url() ?>"><?php bloginfo('name') ?></a>
             <nav>
                 <div class="menu-button">MENU</div>
                 <?php wp_nav_menu([
