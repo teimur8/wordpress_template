@@ -23,7 +23,7 @@
 				<div class="logo-wrap">
 					<?php if ($mts_options['mts_logo'] != '') { ?>
 						<?php if( is_front_page() || is_home() || is_404() ) { ?>
-								<h1 id="logo" class="image-logo">
+								<h1 id="logo" class="image-logo" style="height: 70px;">
 									<a href="<?php echo home_url(); ?>"><img src="<?php echo $mts_options['mts_logo']; ?>" alt="<?php bloginfo( 'name' ); ?>"></a>
 								</h1><!-- END #logo -->
 						<?php } else { ?>

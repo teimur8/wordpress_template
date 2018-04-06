@@ -197,6 +197,7 @@ body > header {
     position: relative;
     margin-bottom: 0;
     margin-top: 7px;
+    height: 72px;
 }
 #logo a {
     text-transform: uppercase;
